@@ -1,0 +1,173 @@
+ * {
+    font-family: "poppins";
+ }
+ body{
+    background-color:white ;
+    padding-bottom: 2000px;
+ }
+ .logo {
+    width: 90px;
+    height: 90px;
+    margin: 20px 0 0 0;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.header{
+    display: flex;
+    background-color: rgb(248, 248, 175);
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 10px 5px;
+    gap: 15px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 100%;
+    word-break: break-word;
+}
+
+.judul{
+    margin: 25px 0 0 0;
+    font-size: 24px;
+}
+.judul span{
+    color: rgb(222, 163, 2);
+}
+.text h5{
+    margin: 0;
+    font-style: italic;
+    color: rgb(234, 179, 0);
+}
+.deskripsi{
+    margin-right: 90px;
+    padding-right: 10px ;
+    margin-top: 0;
+    text-align: left;
+    font-size: 12px;
+}
+.content1{
+    display: flex;
+    flex-direction: column;
+}
+.content1 .btn1{
+    background-color: rgb(253, 242, 145);
+}
+.content1 button a{
+    text-decoration: none;
+    color: black;
+}
+.content1 button{
+    border: none;
+    padding: 10px;
+    background-color: rgb(251, 252, 210);
+}
+.content1 button:hover{
+font-size: 0.9em;
+}
+.pilih .segitiga {
+display: flex;
+flex-direction: column;
+}
+.pilih .segitiga .btn3{
+    background-color:rgb(253, 242, 145) ;
+}
+.pilih .segitiga button a{
+    text-decoration: none;
+    color: black;
+}
+hr{
+    background-color: rgb(255, 195, 127);
+    display: block;
+    height: 20px;
+    border: none;
+}
+
+.ask{
+    text-align: center;
+    color: rgb(222, 163, 2);
+}
+.pilih .segitiga button {
+    border: none;
+    padding: 15px;
+    background-color: rgb(251, 252, 210);
+    border-radius: 20px;
+}
+
+.rumus input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    border: none;
+    margin-bottom: 10px;
+    background-color: rgb(255, 247, 156);
+    outline-color: rgb(209, 140, 2);
+}
+.judul1{
+    text-align: center;
+    color: rgb(197, 129, 3);
+}
+.rumus input:hover{
+    box-shadow: 2px 2px 5px rgb(229, 184, 3);
+}
+.bt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.bt button{
+    border:1px solid  rgb(222, 163, 2);
+    background-color: white;
+    color: black;
+    margin-top: 15px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.result{
+    color: rgb(222, 163, 2) ;
+}
+.bt button:hover{
+    background-color: rgb(222, 163, 2) ;
+    color: white;
+}
+
+.luaz{
+    display: flex;
+}
+.l {
+    margin-bottom: 15px;
+    width: 250px;
+    height: 200px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    align-items: center;
+  }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-5px); }
+  40%, 80% { transform: translateX(5px); }
+}
+
+.shake {
+  animation: shake 0.3s;
+  border: 1px solid red;
+}
+
+#error {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 6px;
+}

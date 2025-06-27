@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaltik: Luas segitiga</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&family=Carter+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Math.css">
+</head>
+<body>
+    <div class="header">
+        <img src="multimedia/logo2.png" alt="" class="logo">
+        <div class="text">
+        <h2 class="judul">Kalkulator <span>Matematik</span></h2>
+        <h5><i>versi bangun datar</i></h5>
+        <p class="deskripsi">Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar </p>
+        </div>
+    </div>
+    <div class="content1">
+        <button class="btn1"><a href="">Segitiga</a></button>
+        <button class="btn2"><a href="Math().html">Jajar genjang</a></button>
+    </div> <hr>
+    <div class="pilih">
+        <h4 class="ask">Halo prof,<br> apa yang akan kamu hitung?</h4>
+        <div class="segitiga">
+            <button class="btn3"><a href="Math.html">luas segitiga</a></button>
+            <button class="btn4"><a href="Math2.html">Keliling segitiga</a></button>
+        </div>
+    </div>
+    <br><br><hr>
+    <div class="rumus">
+        <h3 class="judul1">LUAS SEGITIGA</h3>
+     <div class="luaz">
+        <img class="l" src="multimedia/logo3.png" alt="">
+        <p>Rumus luas segitiga, yaitu: <b>L = 1/2 × a × t  </b><br>dengan <br><b>L</b> = Luas <br><b>a</b> = Panjang Alas <br><b>t</b> = Tinggi</p>
+     </div>
+        <input type="number" placeholder="Masukan nilai alas segitiga (contoh: 64)" id="alas">
+        <input type="number" placeholder="Masukan nilai tinggi segitiga (contoh: 64)" id="tinggi">
+        <p id="error" class="error"></p>
+      <div class="bt">
+        <button class="hitung" id="hitung">Hitung</button>
+        <button class="reset" id="reset">reset</button>
+      </div>
+        <h5 class="result">Jawabannya:</h5>
+        <pre class="jawaban" id="jawaban"></pre>
+    </div>
+<script src="Math.js"></script>
+</body>
+</html>
