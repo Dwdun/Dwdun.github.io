@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kaltik: Keliling segitiga</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Kaltik: Luas Jajar genjang</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&family=Carter+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/Math2.css">
+    <link rel="stylesheet" href="css/Math().css">
 </head>
 <body>
-    <div class="header">
+      <div class="header">
         <img src="multimedia/Logo2.png" alt="" class="logo">
         <div class="text">
         <h2 class="judul">Kalkulator <span>Matematik</span></h2>
@@ -20,33 +20,32 @@
     </div>
     <div class="content1">
         <button class="btn1"><a href="index.html">Segitiga</a></button>
-        <button class="btn2"><a href="html/Math().html">Jajar genjang</a></button>
+        <button class="btn2"><a href="Math().html">Jajar genjang</a></button>
     </div> <hr>
     <div class="pilih">
         <h4 class="ask">Halo prof,<br> apa yang akan kamu hitung?</h4>
         <div class="segitiga">
-            <button class="btn31"><a href="index.html">luas segitiga</a></button>
-            <button class="btn41"><a href="html/Math2.html">Keliling segitiga</a></button>
+            <button class="btn3"><a href="">luas Jajar genjang</a></button>
+            <button class="btn4"><a href="">Keliling Jajar genjang</a></button>
         </div>
     </div>
     <br><br><hr>
     <div class="rumus">
-        <h3 class="judul1">KELILING SEGITIGA</h3>
+        <h3 class="judul1">LUAS JAJAR GENJANG</h3>
      <div class="luaz">
-        <img class="l" src="multimedia/logo4.png" alt="">
-        <p>Rumus Keliling segitiga, yaitu: <b>K = a + b + c  </b><br>dengan <br><b>k</b> = Keliling <br><b>a</b> = Panjang sisi a <br><b>b</b> = Panjang sisi b <br><b>c</b> = Panjang sisi c  </p>
+        <img class="l" src="multimedia/logo3.png" alt="">
+        <p>Rumus luas segitiga, yaitu: <b>L = 1/2 × a × t  </b><br>dengan <br><b>L</b> = Luas <br><b>a</b> = Panjang Alas <br><b>t</b> = Tinggi</p>
      </div>
-        <input type="number" placeholder="Masukan nilai sisi a (contoh: 64)" id="a">
-        <input type="number" placeholder="Masukan nilai sisi b (contoh: 64)" id="b">
-        <input type="number" placeholder="Masukan nilai sisi c (contoh: 64)" id="c">
+        <input type="number" placeholder="Masukan nilai alas segitiga (contoh: 64)" id="alas">
+        <input type="number" placeholder="Masukan nilai tinggi segitiga (contoh: 64)" id="tinggi">
         <p id="error" class="error"></p>
       <div class="bt">
         <button class="hitung" id="hitung">Hitung</button>
         <button class="reset" id="reset">reset</button>
       </div>
         <h5 class="result">Jawabannya:</h5>
-        <p class="jawaban" id="jawaban"></p>
+        <pre class="jawaban" id="jawaban"></pre>
     </div>
-<script src="js/Math2.js"></script>
+    <script src="js/Math().js"></script>
 </body>
 </html>
